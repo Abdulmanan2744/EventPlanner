@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.Models.DTO
+namespace Common.Mediator.DTO
 {
-    public class SendCodeRequest
+    public class LoginDto
     {
         public string Email { get; set; } = default!;
+        public string Password { get; set; } = default!;
     }
 }

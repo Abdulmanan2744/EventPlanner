@@ -1,7 +1,11 @@
-﻿using Common.Models.DTO;
+﻿using Common.Mediator.Commands.User.Login.Common.Mediator.Commands.User.Login;
+using Common.Mediator.Commands.User.Register;
+using Common.Mediator.DTO;
 using Common.Models.UserModel;
 using Common.Services;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
@@ -24,125 +28,45 @@ namespace UserSideAPI.Controllers.Users
         private readonly IConfiguration _configuration;
         private static Dictionary<string, string> VerificationCodes = new Dictionary<string, string>();
         private static Dictionary<string, DateTime> CodeExpiry = new Dictionary<string, DateTime>();
+        private readonly IMediator _mediator;
 
         public AuthController(
             UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager,
-            IConfiguration configuration)
+            IConfiguration configuration, IMediator mediator)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _configuration = configuration;
+            _mediator = mediator;
         }
 
-        // POST: api/Auth/Register
         [HttpPost("Register")]
-        public async Task<IActionResult> Register([FromBody] RegisterDto model)
+        public async Task<IActionResult> Register([FromBody] RegisterCommand command)
         {
-            try
+            var response = await _mediator.Send(command);
+
+            if (!response.Success)
             {
-                if (!ModelState.IsValid)
-                    return BadRequest(new { status = "error", message = "Invalid data provided." });
-
-                // Check if user already exists
-                var existingUser = await _userManager.FindByEmailAsync(model.Email);
-                if (existingUser != null)
-                    return BadRequest(new { status = "error", message = "User with this email already exists." });
-
-                // Create new user
-                var user = new AppUser
-                {
-                    UserName = model.Email,
-                    Email = model.Email,
-                    FullName = model.FullName,
-                    City = model.City,
-                    EmailConfirmed = false,
-                    IsVerified = false,
-                    VerificationStatus = "Pending"
-                };
-
-                var result = await _userManager.CreateAsync(user, model.Password);
-
-                if (!result.Succeeded)
-                {
-                    var errors = string.Join(", ", result.Errors.Select(e => e.Description));
-                    return BadRequest(new { status = "error", message = errors });
-                }
-
-                // Assign role (default: Customer)
-                await _userManager.AddToRoleAsync(user, model.Role ?? "Customer");
-
-                // Send verification email
-                var code = new Random().Next(100000, 999999).ToString();
-                VerificationCodes[model.Email] = code;
-                CodeExpiry[model.Email] = DateTime.UtcNow.AddMinutes(10);
-                await SendVerificationEmail(model.Email, code);
-
-                return Ok(new
-                {
-                    status = "success",
-                    message = "Registration successful. Please verify your email.",
-                    userId = user.Id
-                });
+                return BadRequest(response);
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { status = "error", message = $"An error occurred: {ex.Message}" });
-            }
+
+            return Ok(response);
         }
 
-        // POST: api/Auth/Login
         [HttpPost("Login")]
-        public async Task<IActionResult> Login([FromBody] LoginDto model)
+        public async Task<IActionResult> Login([FromBody] LoginCommand command)
         {
-            try
+            var response = await _mediator.Send(command);
+
+            if (!response.Success)
             {
-                if (!ModelState.IsValid)
-                    return BadRequest(new { status = "error", message = "Invalid credentials." });
-
-                var user = await _userManager.FindByEmailAsync(model.Email);
-                if (user == null)
-                    return Unauthorized(new { status = "error", message = "Invalid email or password." });
-
-                // Check if email is confirmed
-                if (!user.EmailConfirmed)
-                    return Unauthorized(new { status = "error", message = "Please verify your email first." });
-
-                var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, lockoutOnFailure: true);
-
-                if (!result.Succeeded)
-                {
-                    if (result.IsLockedOut)
-                        return Unauthorized(new { status = "error", message = "Account locked due to multiple failed attempts." });
-
-                    return Unauthorized(new { status = "error", message = "Invalid email or password." });
-                }
-
-                // Get user roles
-                var roles = await _userManager.GetRolesAsync(user);
-
-                // Generate JWT token
-                var token = GenerateJwtToken(user, roles);
-
-                return Ok(new
-                {
-                    status = "success",
-                    token = token,
-                    user = new
-                    {
-                        id = user.Id,
-                        email = user.Email,
-                        fullName = user.FullName,
-                        roles = roles
-                    }
-                });
+                // Use Unauthorized (401) for login failures
+                return Unauthorized(response);
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { status = "error", message = $"An error occurred: {ex.Message}" });
-            }
+
+            return Ok(response);
         }
-
         // POST: api/Auth/SendVerificationCode
         [HttpPost("SendVerificationCode")]
         public async Task<IActionResult> SendVerificationCode([FromBody] SendCodeRequest request)
@@ -209,7 +133,7 @@ namespace UserSideAPI.Controllers.Users
 
         // POST: api/Auth/ForgotPassword
         [HttpPost("ForgotPassword")]
-        public async Task<IActionResult> ForgotPassword([FromBody] Common.Models.DTO.ForgotPasswordRequest request)
+        public async Task<IActionResult> ForgotPassword([FromBody] Common.Mediator.DTO.ForgotPasswordRequest request)
         {
             try
             {
@@ -233,7 +157,7 @@ namespace UserSideAPI.Controllers.Users
 
         // POST: api/Auth/ResetPassword
         [HttpPost("ResetPassword")]
-        public async Task<IActionResult> ResetPassword([FromBody] Common.Models.DTO.ResetPasswordRequest request)
+        public async Task<IActionResult> ResetPassword([FromBody] Common.Mediator.DTO.ResetPasswordRequest request)
         {
             try
             {

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.Models.DTO.VerificationDto
+namespace Common.Mediator.DTO.VerificationDto
 {
-    public class RejectUserDto
+    public class ConfirmPhoneDto
     {
-        public string Reason { get; set; } = default!;
+        public string Code { get; set; } = default!;
     }
 }

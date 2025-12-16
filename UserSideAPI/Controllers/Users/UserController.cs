@@ -1,4 +1,4 @@
-﻿using Common.Models.DTO;
+﻿using Common.Mediator.DTO;
 using Common.Models.UserModel;
 using Common.Services;
 using Microsoft.AspNetCore.Authorization;

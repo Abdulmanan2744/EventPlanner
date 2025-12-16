@@ -1,5 +1,5 @@
 ﻿using Common.Data;
-using Common.Models.DTO.VerificationDto;
+using Common.Mediator.DTO.VerificationDto;
 using Common.Models.UserModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

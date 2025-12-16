@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.Models.DTO
+namespace Common.Mediator.DTO
 {
     public class RegisterDto
     {

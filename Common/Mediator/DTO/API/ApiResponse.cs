@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.Models.DTO.API
+namespace Common.Mediator.DTO.API
 {
     public class ApiResponse<T>
     {
