@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.Models
+namespace Common.Models.DTO.API
 {
     public class ApiResponse<T>
     {

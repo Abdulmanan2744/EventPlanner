@@ -136,7 +136,7 @@ namespace Common.Repositories
             }
         }
 
-        public IEnumerable<T> ExecuteQuery(string sql, object parameters = null)
+        public IEnumerable<T> ExecuteQuery(string sql, object? parameters = null)
         {
             try
             {

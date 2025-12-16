@@ -5653,23 +5653,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mani Rao\\.nuget\\packages\\": {},
+    "C:\\Users\\zeeshan.javaid\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\UserSideAPI.csproj",
+      "projectUniqueName": "D:\\Zeeshan\\EventPlanner\\UserSideAPI\\UserSideAPI.csproj",
       "projectName": "UserSideAPI",
-      "projectPath": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\UserSideAPI.csproj",
-      "packagesPath": "C:\\Users\\Mani Rao\\.nuget\\packages\\",
-      "outputPath": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\obj\\",
+      "projectPath": "D:\\Zeeshan\\EventPlanner\\UserSideAPI\\UserSideAPI.csproj",
+      "packagesPath": "C:\\Users\\zeeshan.javaid\\.nuget\\packages\\",
+      "outputPath": "D:\\Zeeshan\\EventPlanner\\UserSideAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mani Rao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zeeshan.javaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5685,8 +5685,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Common.csproj": {
-              "projectPath": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Common.csproj"
+            "D:\\Zeeshan\\EventPlanner\\Common\\Common.csproj": {
+              "projectPath": "D:\\Zeeshan\\EventPlanner\\Common\\Common.csproj"
             }
           }
         }
@@ -5749,7 +5749,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Common.csproj": {}
+    "D:\\Zeeshan\\EventPlanner\\Common\\Common.csproj": {}
   },
   "projects": {
-    "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Common.csproj": {
+    "D:\\Zeeshan\\EventPlanner\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\Zeeshan\\EventPlanner\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\Mani Rao\\.nuget\\packages\\",
-        "outputPath": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\obj\\",
+        "projectPath": "D:\\Zeeshan\\EventPlanner\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\zeeshan.javaid\\.nuget\\packages\\",
+        "outputPath": "D:\\Zeeshan\\EventPlanner\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mani Rao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zeeshan.javaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -102,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

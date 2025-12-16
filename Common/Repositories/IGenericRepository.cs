@@ -15,6 +15,6 @@ namespace Common.Repositories
         void Add(T entity);
         bool Update(T entity);
         bool Delete(int id);
-        IEnumerable<T> ExecuteQuery(string sql, object parameters = null);
+        IEnumerable<T> ExecuteQuery(string sql, object? parameters = null);
     }
 }
