@@ -1,0 +1,260 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\dto\\verificationdto\\confirmphonedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\dto\\verificationdto\\confirmphonedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\dto\\verificationdto\\verificationstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\dto\\verificationdto\\verificationstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\dto\\verificationdto\\verificationdocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\dto\\verificationdto\\verificationdocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\dto\\verificationdto\\idcarduploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\dto\\verificationdto\\idcarduploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\dto\\verificationdto\\fileuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\dto\\verificationdto\\fileuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD11219-8DB1-4044-B1F8-F8B965F75E82}|UserSideAPI\\UserSideAPI.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\usersideapi\\controllers\\users\\verificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD11219-8DB1-4044-B1F8-F8B965F75E82}|UserSideAPI\\UserSideAPI.csproj|solutionrelative:usersideapi\\controllers\\users\\verificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\dto\\verificationdto\\rejectuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\dto\\verificationdto\\rejectuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\usermodel\\verificationdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\usermodel\\verificationdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\dto\\verificationdto\\phoneverificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\dto\\verificationdto\\phoneverificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD11219-8DB1-4044-B1F8-F8B965F75E82}|UserSideAPI\\UserSideAPI.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\usersideapi\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD11219-8DB1-4044-B1F8-F8B965F75E82}|UserSideAPI\\UserSideAPI.csproj|solutionrelative:usersideapi\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD11219-8DB1-4044-B1F8-F8B965F75E82}|UserSideAPI\\UserSideAPI.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\usersideapi\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD11219-8DB1-4044-B1F8-F8B965F75E82}|UserSideAPI\\UserSideAPI.csproj|solutionrelative:usersideapi\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\data\\eventplannerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\data\\eventplannerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|e:\\devbasis project\\eventplanner\\eventplannerapi\\common\\migrations\\eventplannerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78396533-5EC5-4753-AC66-51416411CA0B}|Common\\Common.csproj|solutionrelative:common\\migrations\\eventplannerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 316,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileUploadDto.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\FileUploadDto.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\DTO\\VerificationDto\\FileUploadDto.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\FileUploadDto.cs",
+              "RelativeToolTip": "Common\\Models\\DTO\\VerificationDto\\FileUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:09:40.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfirmPhoneDto.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\ConfirmPhoneDto.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\DTO\\VerificationDto\\ConfirmPhoneDto.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\ConfirmPhoneDto.cs",
+              "RelativeToolTip": "Common\\Models\\DTO\\VerificationDto\\ConfirmPhoneDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:10:13.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerificationController.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\Controllers\\Users\\VerificationController.cs",
+              "RelativeDocumentMoniker": "UserSideAPI\\Controllers\\Users\\VerificationController.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\Controllers\\Users\\VerificationController.cs",
+              "RelativeToolTip": "UserSideAPI\\Controllers\\Users\\VerificationController.cs",
+              "ViewState": "AgIAAMQBAAAAAAAAAAA5wNkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:58:01.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VerificationStatusDto.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\VerificationStatusDto.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\DTO\\VerificationDto\\VerificationStatusDto.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\VerificationStatusDto.cs",
+              "RelativeToolTip": "Common\\Models\\DTO\\VerificationDto\\VerificationStatusDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:47:25.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IdCardUploadDto.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\IdCardUploadDto.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\DTO\\VerificationDto\\IdCardUploadDto.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\IdCardUploadDto.cs",
+              "RelativeToolTip": "Common\\Models\\DTO\\VerificationDto\\IdCardUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:09:43.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerificationDocumentDto.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\VerificationDocumentDto.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\DTO\\VerificationDto\\VerificationDocumentDto.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\VerificationDocumentDto.cs",
+              "RelativeToolTip": "Common\\Models\\DTO\\VerificationDto\\VerificationDocumentDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:46:22.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerificationDocument.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\UserModel\\VerificationDocument.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\UserModel\\VerificationDocument.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\UserModel\\VerificationDocument.cs",
+              "RelativeToolTip": "Common\\Models\\UserModel\\VerificationDocument.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:40:42.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RejectUserDto.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\RejectUserDto.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\DTO\\VerificationDto\\RejectUserDto.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\RejectUserDto.cs",
+              "RelativeToolTip": "Common\\Models\\DTO\\VerificationDto\\RejectUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:48:34.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PhoneVerificationDto.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\PhoneVerificationDto.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\DTO\\VerificationDto\\PhoneVerificationDto.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\DTO\\VerificationDto\\PhoneVerificationDto.cs",
+              "RelativeToolTip": "Common\\Models\\DTO\\VerificationDto\\PhoneVerificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:10:07.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\Dish.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\Dish.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Models\\Dish.cs",
+              "RelativeToolTip": "Common\\Models\\Dish.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:43:06.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventPlannerDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Migrations\\EventPlannerDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Common\\Migrations\\EventPlannerDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Migrations\\EventPlannerDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Common\\Migrations\\EventPlannerDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAO4DAAAAAAAAAAAowBEEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:43:20.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\Controllers\\Users\\UserController.cs",
+              "RelativeDocumentMoniker": "UserSideAPI\\Controllers\\Users\\UserController.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\Controllers\\Users\\UserController.cs",
+              "RelativeToolTip": "UserSideAPI\\Controllers\\Users\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAALMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:38:19.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\Controllers\\Users\\AuthController.cs",
+              "RelativeDocumentMoniker": "UserSideAPI\\Controllers\\Users\\AuthController.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\UserSideAPI\\Controllers\\Users\\AuthController.cs",
+              "RelativeToolTip": "UserSideAPI\\Controllers\\Users\\AuthController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowGAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:36:56.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventPlannerDbContext.cs",
+              "DocumentMoniker": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Data\\EventPlannerDbContext.cs",
+              "RelativeDocumentMoniker": "Common\\Data\\EventPlannerDbContext.cs",
+              "ToolTip": "E:\\Devbasis Project\\EventPlanner\\EventPlannerAPI\\Common\\Data\\EventPlannerDbContext.cs",
+              "RelativeToolTip": "Common\\Data\\EventPlannerDbContext.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAADwv6AAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T07:56:38.532Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 316,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

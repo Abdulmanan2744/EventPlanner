@@ -1,0 +1,328 @@
+[
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Common.Models.DTO.ChangePasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Auth/ForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Common.Models.DTO.ForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Common.Models.DTO.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Common.Models.DTO.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Common.Models.DTO.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.AuthController",
+    "Method": "SendVerificationCode",
+    "RelativePath": "api/Auth/SendVerificationCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Common.Models.DTO.SendCodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.AuthController",
+    "Method": "VerifyCode",
+    "RelativePath": "api/Auth/VerifyCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Common.Models.DTO.VerifyCodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.UserController",
+    "Method": "DeleteAccount",
+    "RelativePath": "api/User/DeleteAccount",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/User/GetUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.UserController",
+    "Method": "GetProfile",
+    "RelativePath": "api/User/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.UserController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/User/UpdateProfile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Common.Models.DTO.UpdateProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "ApproveUser",
+    "RelativePath": "api/Verification/ApproveUser/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "ConfirmPhoneNumber",
+    "RelativePath": "api/Verification/ConfirmPhoneNumber",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Common.Models.DTO.VerificationDto.ConfirmPhoneDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "GetDocuments",
+    "RelativePath": "api/Verification/GetDocuments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "GetVerificationStatus",
+    "RelativePath": "api/Verification/GetVerificationStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "RejectUser",
+    "RelativePath": "api/Verification/RejectUser/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "reason",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "UploadIdCard",
+    "RelativePath": "api/Verification/UploadIdCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "UploadPlannerDocument",
+    "RelativePath": "api/Verification/UploadPlannerDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "UploadVideo",
+    "RelativePath": "api/Verification/UploadVideo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserSideAPI.Controllers.Users.VerificationController",
+    "Method": "VerifyPhoneNumber",
+    "RelativePath": "api/Verification/VerifyPhoneNumber",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Common.Models.DTO.VerificationDto.PhoneVerificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
